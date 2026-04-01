@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4">
+  <diagram name="Page-1" id="hafi-wWYbtkkSZvUn7y5">
+    <mxGraphModel dx="2042" dy="1693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-1" target="PLqj16XNwZeE_x2BTYeo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-20" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-2" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-132.5" y="780" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-3" target="PLqj16XNwZeE_x2BTYeo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-3" value="Declarations&lt;br&gt;&amp;nbsp; &amp;nbsp; num loanA&lt;br&gt;&amp;nbsp; &amp;nbsp; num mPA&lt;br&gt;&amp;nbsp; &amp;nbsp; num t = 0" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="80" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-4" target="PLqj16XNwZeE_x2BTYeo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-4" value="output &quot;What is your loan amount?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="260" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-5" target="PLqj16XNwZeE_x2BTYeo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-5" value="input loanA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="350" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-6" target="PLqj16XNwZeE_x2BTYeo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-6" value="output &quot;What is your&amp;nbsp;&lt;div&gt;monthly payment?&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="63" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-7" target="PLqj16XNwZeE_x2BTYeo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-7" value="input mPA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="63" y="530" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-8" target="PLqj16XNwZeE_x2BTYeo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-8" target="PLqj16XNwZeE_x2BTYeo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-8" value="while t != loanA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="630" width="165" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="511" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-9" value="output &quot;Current Loan&lt;div&gt;&amp;nbsp;Balance:&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&quot; (loanA - t)&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="268.5" y="780" width="221" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-11" target="PLqj16XNwZeE_x2BTYeo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;t = t + mPA&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="676.25" width="178" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PLqj16XNwZeE_x2BTYeo-12" target="PLqj16XNwZeE_x2BTYeo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-12" value="output &quot;Congrats you are&amp;nbsp;&lt;div&gt;det free!!!&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="680" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-24" value="true" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="670" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PLqj16XNwZeE_x2BTYeo-25" value="false" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

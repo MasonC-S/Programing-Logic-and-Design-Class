@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.17">
+  <diagram name="Page-1" id="JisSofdJzUbdqbKYDkul">
+    <mxGraphModel dx="1192" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-1" target="AJeSix5C2nkX5lEl4JPs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-2" target="AJeSix5C2nkX5lEl4JPs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-2" value="Declarations&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;num miles&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;num gallons&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;num mpg&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;num END_VAL = 0&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="140" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-3" target="AJeSix5C2nkX5lEl4JPs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-3" value="output &quot;How many miles did you drive? Enter 0 to quit.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="91.25" y="300" width="202.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-4" target="AJeSix5C2nkX5lEl4JPs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-4" value="input miles" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="390" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-5" target="AJeSix5C2nkX5lEl4JPs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-5" target="AJeSix5C2nkX5lEl4JPs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-5" value="miles not END_VAL?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="165" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-6" target="AJeSix5C2nkX5lEl4JPs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-6" value="mpg=miles/gallons" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="337" y="720" width="215" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-7" target="AJeSix5C2nkX5lEl4JPs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-7" value="output &quot;How many galloons of gas did you use?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="293.75" y="530" width="301.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-8" target="AJeSix5C2nkX5lEl4JPs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-8" value="input gallons" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354.5" y="620" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-11" target="AJeSix5C2nkX5lEl4JPs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-11" value="output &quot;How many miles did you drive? Enter 0 to quit.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="267" y="830" width="355" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-12" value="input miles" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="920" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AJeSix5C2nkX5lEl4JPs-13" target="AJeSix5C2nkX5lEl4JPs-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-13" value="output &quot;End of program&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="680" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-14" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="770" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-15" value="yes" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="520" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AJeSix5C2nkX5lEl4JPs-16" value="no" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

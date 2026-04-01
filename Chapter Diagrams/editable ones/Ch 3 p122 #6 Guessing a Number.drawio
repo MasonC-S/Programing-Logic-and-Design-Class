@@ -1,0 +1,131 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.17">
+  <diagram name="Page-1" id="AqVgOnSI93yPR-R8Letc">
+    <mxGraphModel dx="2042" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IDEip65VqBBnB85kFpjI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IDEip65VqBBnB85kFpjI-1" target="IDEip65VqBBnB85kFpjI-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IDEip65VqBBnB85kFpjI-2" target="IDEip65VqBBnB85kFpjI-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-2" value="Declarations&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;num rNum&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;num guessNum" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-7.5" y="140" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IDEip65VqBBnB85kFpjI-3" target="IDEip65VqBBnB85kFpjI-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-3" value="output &quot;Please give a number 1-100&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="180" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-4" target="IDEip65VqBBnB85kFpjI-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-4" value="input rNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="270" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-5" target="IDEip65VqBBnB85kFpjI-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-5" value="output &quot;What will you first guess be?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="350" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-6" value="input guessNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="440" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IDEip65VqBBnB85kFpjI-7" target="IDEip65VqBBnB85kFpjI-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KjXnz6-fXihB2GtI43ye-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IDEip65VqBBnB85kFpjI-7" target="IDEip65VqBBnB85kFpjI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-7" value="while guessNum != rNum" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="540" width="165" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-8" value="true" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="410" y="680" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-9" value="false" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="295" y="580" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="IDEip65VqBBnB85kFpjI-10" target="IDEip65VqBBnB85kFpjI-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KjXnz6-fXihB2GtI43ye-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IDEip65VqBBnB85kFpjI-10" target="IDEip65VqBBnB85kFpjI-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-10" value="if guessNum &amp;gt; rNum" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="317.5" y="730" width="165" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-11" value="true" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=50;strokeWidth=2;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300" y="760" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-12" value="false" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="410" y="875" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-13" target="IDEip65VqBBnB85kFpjI-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-13" value="output &quot;You number is to high.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="780" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-14" target="IDEip65VqBBnB85kFpjI-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-14" value="output &quot;What is you next guess?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="860" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-15" value="input guessNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="940" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-22" target="IDEip65VqBBnB85kFpjI-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-22" value="output &quot;You number is to low&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1040" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-23" target="IDEip65VqBBnB85kFpjI-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-23" value="output &quot;What is your next guess?&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="1130" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KjXnz6-fXihB2GtI43ye-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IDEip65VqBBnB85kFpjI-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-24" value="input guessNum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="1220" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-25" target="IDEip65VqBBnB85kFpjI-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-25" value="output &quot;Correct!&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="590" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-26" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="117.5" y="680" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="IDEip65VqBBnB85kFpjI-6" target="IDEip65VqBBnB85kFpjI-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IDEip65VqBBnB85kFpjI-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="IDEip65VqBBnB85kFpjI-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="155" y="1020" />
+              <mxPoint y="1020" />
+              <mxPoint y="530" />
+              <mxPoint x="280" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
