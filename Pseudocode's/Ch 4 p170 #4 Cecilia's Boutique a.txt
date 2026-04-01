@@ -1,0 +1,18 @@
+start
+  Declarations
+    num idNum
+    num itemsS
+    num totalV
+    string msg = "This message displays data..."
+
+  output "Salesperson's ID number?"
+  input idNum
+  output "Number of items sold in the last month?"
+  input itemsS
+  output "Total value of items sold?"
+  input totalV
+
+  if  itemsS > 200
+    output msg
+  endif
+end

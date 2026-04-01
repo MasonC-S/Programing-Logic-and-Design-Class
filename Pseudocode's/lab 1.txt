@@ -1,0 +1,5 @@
+start
+input myNumber
+outputNumber = myNumber*10
+output outputNumber
+end

@@ -1,0 +1,9 @@
+start
+	input hourlyPayRate
+	input hours
+	input withholdingRate //in decimal form
+	
+	grossPay = (hourlyPayRate*hours)-(hourlyPayRate*hours*withholdingRate)
+		
+	output grossPay	
+end

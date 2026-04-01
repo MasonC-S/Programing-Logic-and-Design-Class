@@ -1,0 +1,40 @@
+start
+  Declarations
+    num orderNum
+    num numChars
+    num price
+    string custName
+    string woodType
+    string colorChars
+    num MIN_FEE = 30
+    num GOLD_FEE = 12
+    num OAK_FEE = 15
+    num CHAR_LIMIT = 6
+    num ADD_CHAR_FEE = 3
+
+  housekeeping()
+
+  while eof != true
+    detailLoop()
+  endWhile
+
+  finish()
+stop
+
+housekeeping()
+  output "Sign program"
+  input orderNum, custName, woodType, numChars, colorChars
+return
+
+detailLoop()
+  if woodType = "pine" AND numChars > 10 AND colorChars = "gold"
+    price = MIN_FEE + GOLD_FEE + (numChars - CHAR_LIMIT) * ADD_CHAR_FEE
+    output orderNum, custName, woodTYpe, numChars, colorChars, price
+  endif
+    input orderNum, custName, woodType, numChars, colorChars
+return
+
+finish()
+  output "End of program"
+return
+

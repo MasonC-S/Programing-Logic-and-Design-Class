@@ -1,0 +1,30 @@
+start
+	Declarations
+		num actB	
+		num odNum
+		num feeCalc
+	housekeeping()
+	while actB >= 0
+		detailLoop()
+	endwhile
+	endOfJob()
+end
+
+housekeeping()
+	output "Current account balance?"
+	input actB
+return
+
+detaiLoop()
+	output "What is the number of overdrafts?"
+	input odNum
+	
+	feeCalc = (actB(.01))+(5(odNum))
+	output "Your fee is $" feeCalc
+	output "Next account balance?"
+	input actB
+return
+
+endOfJob()
+	output "Thanks for using this program"
+return

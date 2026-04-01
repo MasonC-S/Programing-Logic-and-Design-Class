@@ -1,0 +1,43 @@
+Start
+	Declaration
+		num userHeightInput
+		num userWeightInput
+		num hInCen
+		num hInMet
+		num wInGra
+		num wInKil
+		num mainCalc
+		string endThing = "End of Job"
+	userHeight()
+	while userHeightInput != 0 //!= means "not equal"
+		userWeightAndCalculations()
+	endwhile
+	endOfJob()	
+
+End
+
+userHeight()
+	output "What is your height in Inches?"
+	input userHeightInput
+return
+	
+
+userWeightAndCalculations()
+	output "What is you weight in pounds?"
+	input userWeightInput
+	
+	hInCen = userHeightInput*2.54
+	hInMet = hInCen/100
+	wInGra = userWeightInput*453.59
+	wInKil = wInGra/1000
+	
+	mainCalc = wInKil/(hInMet*hInMet)
+	output "Your BMI Calculation is " mainCalc
+	output "What is your next height in Inches?"
+	input userHeightInput
+	
+return 
+
+endOfJob()
+	output endThing
+return

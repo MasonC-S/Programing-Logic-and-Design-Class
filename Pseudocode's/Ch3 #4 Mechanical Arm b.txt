@@ -1,0 +1,16 @@
+//Lower is a combination of the lower and move while lowered steps
+//so it lowers and movers the pen 1in left-to-right
+//Raise is a combination of the raise and raise while raised steps
+//so it raises and moves the pen 1in to the right
+//drawCircle stops and starts at the same spot
+start
+	lower
+	lower
+	turn 90
+	lower
+	turn 90
+	lower
+	lower
+	turn 90
+	lower
+end

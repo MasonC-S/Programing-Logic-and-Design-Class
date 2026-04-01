@@ -1,0 +1,52 @@
+start
+//assumptions not directly stated in directions:
+//takeAStep is 1ft long
+//standUp places robot 1ft in front of chair
+//sitDown places robot in chair, can only be executed when robot is
+//directly in front of chair and robot's back is facing chair
+//isTouching refers to the question the robot can answer
+//isTouching does not move chair any, chairs are unmovable
+//isTouching cheeks the space directly in front of robot(1ft)
+//the chair is 1ft by 1ft
+//when considered in a 2d space the robot is 1ft by 1ft
+
+	standUp
+	trunL
+	takeAStep
+	trunL
+	takeAStep
+	takeAStep
+	turnL
+	takeAStep
+	takeAStep
+	turnL	
+	takeAStep
+	takeAStep
+	turnL
+	takeAStep
+	trunR
+	
+	while isTouching == false
+		takeAStep
+	endwhile
+	
+	trunR
+	takeAStep
+	trunL
+	takeAStep
+	takeAStep
+	trunL
+	takeAStep
+	takeAStep
+	trunL
+	takeAStep
+	takeAStep
+	trunL
+	takeAStep
+	trunR
+	
+	while isTouching == false
+		takeAStep
+	endwhile
+	sitDown
+end

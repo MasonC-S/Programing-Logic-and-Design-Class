@@ -1,0 +1,33 @@
+start
+  Declarations
+    num idNum
+    string iDes
+    num aucLen
+    num minB
+    num sentVal = 4206969
+    list itemList
+
+  output "To stop repeating enter 4206969 in ID number prompt"
+
+  output "What is the first item's ID number?"
+  input idNum
+
+  if idNum != 4206969
+    output "What is the item Description?"
+    input iDes
+    output "What is the length of the auction in days?"
+    input aucLen
+    output "What is the minimum bid?"
+    input minB
+    
+    if minB > 300
+      add this items data to itemList
+    endif
+
+    output "What is the next items ID num?"
+    input idNum
+    
+  else 
+      output "the Data for each item is: " itemList
+  endif
+end	

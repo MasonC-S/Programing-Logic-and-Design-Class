@@ -1,0 +1,10 @@
+start
+	input v1
+	input v2
+
+	sum = v1 + v2
+	diff = v1 - v2 // + or - doesn't matter
+
+	output sum
+	output diff
+end

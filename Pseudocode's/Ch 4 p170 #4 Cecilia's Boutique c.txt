@@ -1,0 +1,37 @@
+//Told in class did not need to do the
+//list part so didn't, did as directed in class.
+
+//Which is to just output what would be in list
+//And have sentinel value end things,
+//rather than display the list
+start
+  Declarations
+    num idNum
+    num itemsS
+    num totalV
+    num sentVal = 4206969
+
+  output "To end enter 4206969 as a ID number"
+
+  output "Salesperson's ID number?"
+  input idNum
+  output "Number of items sold in the last month?"
+  input itemsS
+  output "Total value of items sold?"
+  input totalV
+
+  while idNum != 4206969
+    if  itemsS > 100
+      output idNum
+    endif
+
+    output "Next salesperson's ID number?"
+    input idNum
+    output "Number of items sold in the last month?"
+    input itemsS
+    output "Total value of items sold?"
+    input totalV
+  endwhile
+
+  output "Program ended"
+end

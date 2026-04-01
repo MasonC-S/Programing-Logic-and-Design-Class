@@ -1,0 +1,12 @@
+start
+  Declarations
+    num n = 1
+    num count
+	
+  for count = 0 to 14 step 1
+    output n 
+    output (n*10)
+    output (n*100)
+    n = n + 1
+  endfor
+end

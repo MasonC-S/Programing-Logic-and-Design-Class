@@ -1,0 +1,52 @@
+//Assumed the movie manager knows
+//how to end program
+//also users shouldn't know
+
+//Assumed a decimal avg rating will work
+//more work to find witch rating was most popular
+
+start
+  Declarations
+    num uR //user entered rating
+    string b = "f" //per user
+    string e = "a" //so does not alter avg when too many tries
+    num t = 0 //part of avg calc
+    num c = 0 //part of avg calc
+    num d = 1 //# of tries
+
+  output "How many stars will your give the Guide's featured movie of the week? (number 0-4)"
+  input uR
+ 
+  while uR > 0
+    while b = f
+      if NOT(uR >= 0 and uR <= 4)
+        if d > 3
+          output "To many attempts! Continue to next patron."
+          b = "t"
+          e = "z"
+        else
+          output "Not valid input, has to be a number 0-4"
+          input uR
+          d = d + 1
+        endif
+      else
+        b = "t"
+      endif
+
+    endwhile
+
+    if e != z
+      c = c + uR
+      t = t + 1
+      output "Thanks for your rating!"
+    endif
+
+    b = "f"
+    e = "a"
+    d = 1
+    output "How many stars will your give the Guide's featured movie of the week? (number 0-4)"
+     input uR
+  endwhile
+
+  output "The average rating is: " c/t " stars."
+end

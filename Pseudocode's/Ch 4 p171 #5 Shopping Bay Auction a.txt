@@ -1,0 +1,23 @@
+start
+	Declarations
+		num idNum
+		string iDes
+		num aucLen
+		num minB
+
+	output "What is the item ID number?"
+	input idNum
+	output "What is the item Description?"
+	input iDes
+	output "What is the length of the auction in days?"
+	input aucLen
+	output "What is the minimum bid?"
+	input minB
+	
+	if minB > 250
+		output "The item ID number is: " idNum
+		output "Description: " iDes
+		output "This auction will be up for " aucLen " days"	
+		output "The Minimum bid is: " minB
+	endif
+end	

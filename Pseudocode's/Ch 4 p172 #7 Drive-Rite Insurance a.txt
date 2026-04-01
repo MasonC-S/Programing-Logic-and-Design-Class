@@ -1,0 +1,72 @@
+start
+  Declarations
+    num pNum
+    string cLN 
+    string cFN
+    num cAge
+    num pDDM
+    num pDDD
+    num pDDY
+    num nDriAccs
+
+  AskForInfo()
+
+  if NOT(pNum >= 1000 and pNum <= 9999)
+    pNum = 0
+  endif
+  
+
+  if NOT(pDDM >= 1 and pDDM <= 12)
+    setDZero()
+  else
+    if pDDM = 1 or pDDM = 3 or pDDM = 5 or pDDM = 7 or pDDM = 8 or pDDM = 10 or pDDM = 12  
+      if NOT(pDDD >= 1 and pDDD <= 31)
+        setDZero()
+      endif
+    else
+      if pDDM = 4 or pDDM = 6 or pDDM = 9 or pDDM = 11
+        if NOT(pDDD >= 1 and pDDD <= 30)
+          setDZero()
+        endif
+      else
+        if NOT(pDDD >= 1 and pDDD <= 29)
+          setDZero()
+        endif
+      endif
+    endif
+  endif
+end
+
+AskForInfo()
+  output "What is your policy number?"
+  input pNum
+  output "What is your last name?"
+  input cLN
+  output "What is your first name?"
+  input cFN
+  output "What is your age?"
+  input cAge
+  output "Format month as its number(January = 1)"
+  output "Premium due date Month?"
+  input pDDM
+  output "Premium due date Day?"
+  input pDDD
+  output "Premium due date Year?"
+  input pDDY
+  output "How many driving accidents have you had in the last 3 years?"
+return
+
+pData()
+  output "Policy number is: " pNum
+  output "Policy holders last name is: " cLN
+  output "Policy holders first name is: " cFN
+  output "Policy holders is " cAge " old"
+  output "Policy Due Date is: " pDDM " ," pDDD " ," pDDY
+  output "Policy holders has been in " nDriAccs " accidents"
+return
+
+setDZero()
+  pDDM = 0
+  pDDD = 0
+  pDDY = 0
+return

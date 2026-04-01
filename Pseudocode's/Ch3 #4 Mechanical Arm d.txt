@@ -1,0 +1,43 @@
+//Lower is a combination of the lower and move while lowered steps
+//so it lowers and movers the pen 1in left-to-right
+//Raise is a combination of the raise and raise while raised steps
+//so it raises and moves the pen 1in to the right
+//drawCircle stops and starts at the same spot
+start
+ //word is TooL
+
+      //the T
+	lower
+	lower	
+	turn 90
+	turn 90
+	raise
+	turn 90
+	turn 90
+	turn 90
+	lower
+	lower
+	turn 90
+	turn 90
+	raise
+	raise
+	turn 90
+	raise
+	raise
+
+      //the 2 o's
+	drawCircle
+	raise
+	drawCircle
+	raise
+	
+      //the L
+	trun 90
+	lower
+	lower
+	turn 90
+	turn 90
+	turn 90
+	lower
+	lower	
+end

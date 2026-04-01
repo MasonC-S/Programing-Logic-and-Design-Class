@@ -1,0 +1,18 @@
+start
+  Declarations
+    num loanA
+    num mPA
+    num t = 0
+
+  output "What is your loan amount?"
+  input loanA
+  output "What is your monthly payment?"
+  input mPA
+
+  while t != loanA
+    t = t + mPA
+    output "Current Loan Balance: " (loanA - t)
+  endwhile
+  
+  output "Congrats you are det free!!!"
+end

@@ -1,0 +1,51 @@
+start
+  Declarations
+    num numOfStars
+    num count = 0
+    num total = 0
+    num attempts
+    num avg
+    num LIMIT = 3
+    string PROMPT = "Enter the star rating or a negative number to quit>>"
+   
+
+  housekeeping()
+
+  while numOfStars >= 0 AND attempts < LIMIT
+    detailLoop()
+  endWhile
+
+  finishUP()
+stop
+
+housekeeping()
+  output PROMPT
+  input numOfStars
+  attempts = 0
+return
+
+detailLoop()
+  while (numOFStars > 4 OR numOFStars < 0) AND attempts < LIMIT
+    output "please re-enter a value from 0 to 4>>"
+    input numOfStars
+    attempts  attempts + 1
+
+  if attempts < LIMIT
+    count = count + 1
+    total = total + numOfStars
+    output PROMPT
+    input numOfStars
+  else
+    output "You have failed to enter a valid rating."
+    output "The program will now end"
+  endif
+return
+
+finishUp()
+  if attempts < LIMIT
+    avg = total / count
+    output "The average star rating is: " avg
+  endif
+  output "End of program"
+return
+

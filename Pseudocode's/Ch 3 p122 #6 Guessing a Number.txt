@@ -1,0 +1,22 @@
+start
+	Declarations
+		num rNum
+		num guessNum
+	
+	output "Please give a number 1-100"
+	input rNum
+	output "What will you first guess be?"
+	input guessNum
+	
+	while guessNum != rNum
+		if guessNum > rNum
+			output "You number is to high."
+			output "What is you next guess?"
+			input guessNum
+		endif
+		output "You number is to low"
+		output "What is your next guess?"
+		input guessNum
+	endwhile
+	output "Correct!"
+end

@@ -1,0 +1,39 @@
+start
+  Declarations
+    num idNum
+    string iDes
+    num aucLen
+    num minB
+    num maxB
+
+  output "What is the maximum bid?"
+  input maxB
+  output "What is the first item's ID number?"
+  input idNum
+  output "What is the item Description?"
+  input iDes
+  output "What is the length of the auction in days?"
+  input aucLen
+  output "What is the minimum bid?"
+  input minB
+    
+  if minB <= maxB
+    output "The item ID number is: " idNum
+    output "Description: " iDes
+    output "This auction will be up for " aucLen " days"	
+    output "The Minimum bid is: " minB
+    output "The Maximum required bid is: " maxB
+  endif
+
+  output "What is the next item's maximum bid?"
+  input maxB
+  output "What is this items ID num?"
+  input idNum
+  output "What is this item Description?"
+  input iDes
+  output "What is the length of this auction in days?"
+  input aucLen
+  output "What is this items minimum bid?"
+  input minB
+  
+//Their is no end to this program

@@ -1,0 +1,52 @@
+start
+  Declarations
+    num pNum
+    string cLN 
+    string cFN
+    num cAge
+    num pDDM
+    num pDDD
+    num pDDY
+    num nDriAccs
+
+  AskForInfo()
+
+  if pDDY < 2018  
+   pData()
+  eles
+    if pDDY = 2018 and pDDM = 1 and pDDD = 1
+      pData
+    endif
+  endif
+
+  AskForInfo()
+  
+//This program has no end
+
+AskForInfo()
+  output "What is your policy number?"
+  input pNum
+  output "What is your last name?"
+  input cLN
+  output "What is your first name?"
+  input cFN
+  output "What is your age?"
+  input cAge
+  output "Format month as its number(January = 1)"
+  output "Premium due date Month?"
+  input pDDM
+  output "Premium due date Day?"
+  input pDDD
+  output "Premium due date Year?"
+  input pDDY
+  output "How many driving accidents have you had in the last 3 years?"
+return
+
+pData()
+  output "Policy number is: " pNum
+  output "Policy holders last name is: " cLN
+  output "Policy holders first name is: " cFN
+  output "Policy holders is " cAge " old"
+  output "Policy Due Date is: " pDDM " ," pDDD " ," pDDY
+  output "Policy holders has been in " nDriAccs " accidents"
+return

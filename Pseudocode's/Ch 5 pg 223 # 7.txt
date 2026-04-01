@@ -1,0 +1,15 @@
+start
+  Declarations
+    num n = 0
+    num t = 0 
+
+  output "Enter a #, to calc total enter 0"
+  input n
+  while n != 0
+    t = t + n
+    output "Enter a #, to calc total enter 0"
+    input n
+  endwhile
+  output "Total = " t
+end
+    

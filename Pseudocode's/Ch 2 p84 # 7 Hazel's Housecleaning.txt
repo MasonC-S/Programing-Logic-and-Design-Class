@@ -1,0 +1,34 @@
+start
+	Declarations
+		string sentinelVal = "ZZZZ"
+		string userLN
+		num bNum
+		num oNum
+		num mainCalc
+	houseKeeping()
+	while userLN != sentinelVal //!= means "not equal to"
+		detailLoop()
+	endwhile
+	endOfJob()
+end
+
+houseKeeping()
+	output "What is your last Name?"
+	input userLN
+return userLN
+
+detailLoop()
+	output "How many Bathrooms are to be cleaned?"
+	input bNum
+	output "How many not bathrooms must be cleaned?"
+	input oNum
+	
+	mainCalc = (15(bNum)+10(oNum))+40
+	output "The service charge for " userLN " is $" mainCalc"
+	output "What is the next last Name?"
+	input userLN
+return
+	
+endOfJob()
+	output "This session is finished"
+return

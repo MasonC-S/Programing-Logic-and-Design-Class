@@ -1,0 +1,10 @@
+start
+	input edgeLength
+	sideArea = edgeLength*edgeLength
+	surfaceArea = sideArea*6
+	volume = sideArea*edgeLength
+	output sideArea
+	output surfaceArea
+	output volume
+	
+end
